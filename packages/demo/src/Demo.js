@@ -71,8 +71,12 @@ class Demo extends React.Component {
               transitionEnterTimeout={1000}
               transitionLeaveTimeout={1000}
             >
-              <img key="img1" src={vista1} width="600" height="235" alt="" />
-              <img key="img2" src={vista2} width="600" height="280" alt="" />
+              <div style={{border: "4px dashed red"}}>
+                <h1>HELLO 1</h1>
+              </div>
+              <div style={{border: "8px dotted green"}}>
+                <h1>HELLO 2</h1>
+              </div>
             </ContentSwapper>
 
             <h3 id="fade-wait">Fade out, then fade in transition</h3>
